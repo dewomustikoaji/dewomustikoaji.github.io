@@ -1,0 +1,50 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "183d74bffce-layer-3",
+      "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/HALTE_TRANSJAKARTA/FeatureServer/0",
+      "name": "HALTE TRANSJAKARTA",
+      "placeholder": "",
+      "searchFields": [],
+      "displayField": "FID",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "ArcGIS World Geocoding Service",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "radiusUnit": "meter",
+      "type": "locator"
+    },
+    {
+      "name": "Peta Bangunan UI",
+      "url": "http://demo.esriindonesia.co.id/arcgis/rest/services/Internship/Bangunan_UI_AddressLoc/GeocodeServer",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Place",
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "type": "locator",
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000
+    }
+  ]
+}
